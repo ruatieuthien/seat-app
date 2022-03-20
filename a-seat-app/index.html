@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="hero">
+        <!-- style -->
+        <div class="bubbles">
+            <img src="./images/bubble.png">
+            <img src="./images/bubble.png">
+            <img src="./images/bubble.png">
+            <img src="./images/bubble.png">
+            <img src="./images/bubble.png">
+            <img src="./images/bubble.png">
+            <img src="./images/bubble.png">
+        </div>
+        <div class="title">
+            <div class="cinema-container"></div>
+            <form id="register-form" class="close-form">
+                <h1></h1>
+                <input autocomplete="off" type="text" placeholder="Nhập tên của bạn" name="nameuser" />
+                <select>
+                    <option disabled selected hidden>Chọn phim</option>
+                </select>
+                <h4></h4>
+                <button type="submit" class="book">Đặt chỗ!</button>
+                <h2 id="close">X</h2>
+            </form>
+            <div class="alert close-form">
+                <h1>Chỗ này đã có người đặt!</h1>
+                <button class="close-alert">X</button>
+            </div>
+        </div>
+    </div>
+    <footer class="alert"></footer>
+
+
+
+    <script src="./data.js"></script>
+    <script src="./javascript.js"></script>
+</body>
+</html>
